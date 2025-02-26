@@ -10,7 +10,8 @@ const CreateData = () => {
         await createData({ name, value });
         setName('');
         setValue('');
-        alert('Data Added!');
+        onUpdate(); // Refresh the data list after adding
+        // alert('Data Added!');
     };
 
     return (

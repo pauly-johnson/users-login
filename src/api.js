@@ -21,3 +21,4 @@ export const deleteData = async (id) => {
     const response = await axios.delete(`${API_URL}/test/${id}`);
     return response.data;
 };
+
